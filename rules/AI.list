@@ -10,6 +10,17 @@ DOMAIN-SUFFIX, claudeusercontent.com
 DOMAIN-SUFFIX, clau.de
 DOMAIN-SUFFIX, claudemcpclient.com
 DOMAIN-SUFFIX, claudemcpcontent.com
+DOMAIN-SUFFIX, clau.de
+DOMAIN-SUFFIX, servd-anthropic-website.b-cdn.net
+DOMAIN-SUFFIX, sentry.io
+DOMAIN-SUFFIX, statsigapi.net
+DOMAIN-SUFFIX, cdn.anthropic.com
+DOMAIN-SUFFIX, mcp.anthropic.com
+DOMAIN-SUFFIX, console.anthropic.com
+DOMAIN-SUFFIX, workbench.anthropic.com
+DOMAIN-SUFFIX, anthropic.auth0.com
+DOMAIN-SUFFIX, anthropic-com.ghost.io
+DOMAIN-SUFFIX, anthropic.com.cdn.cloudflare.net
 
 # 登录与站点资源（精确匹配，避免把 Auth0、Bunny CDN、Cloudflare 整体送入 AI）
 DOMAIN, anthropic.auth0.com
