@@ -1,0 +1,23 @@
+# AI 服务规则
+# 说明：AI 服务相关域名，分流至 AI 代理组（主配置中须置于 Google 与 Twitter 规则之前：Gemini 域名在 Google 列表内，grok.com 也在 Twitter 列表内）
+# 来源：自维护
+
+# ===== Claude (Anthropic) =====
+DOMAIN-SUFFIX, anthropic.com
+DOMAIN-SUFFIX, claude.ai
+DOMAIN-SUFFIX, claude.com
+DOMAIN-SUFFIX, claudeusercontent.com
+DOMAIN-SUFFIX, clau.de
+DOMAIN-SUFFIX, claudemcpclient.com
+DOMAIN-SUFFIX, claudemcpcontent.com
+DOMAIN-SUFFIX, clau.de
+DOMAIN-SUFFIX, servd-anthropic-website.b-cdn.net
+DOMAIN-SUFFIX, sentry.io
+DOMAIN-SUFFIX, statsigapi.net
+DOMAIN-SUFFIX, cdn.anthropic.com
+DOMAIN-SUFFIX, mcp.anthropic.com
+DOMAIN-SUFFIX, console.anthropic.com
+DOMAIN-SUFFIX, workbench.anthropic.com
+DOMAIN-SUFFIX, anthropic.auth0.com
+DOMAIN-SUFFIX, anthropic-com.ghost.io
+DOMAIN-SUFFIX, anthropic.com.cdn.cloudflare.net
